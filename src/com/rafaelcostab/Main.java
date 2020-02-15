@@ -16,7 +16,8 @@ public class Main {
             int optionFreight = sc.nextInt();
             TypeFreight typeFreight = TypeFreight.values()[optionFreight - 1];
 
-            Freight freight = new Freight(typeFreight);
+            Freight freight = typeFreight.getFreight();
+
             double price = freight.calculatePrice(distance);
             System.out.printf("The total value is R$%.2f", price);
         }
