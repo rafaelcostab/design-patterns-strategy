@@ -1,4 +1,4 @@
-# Designer Patterns Strategy
+# Design Patterns Strategy
 
 This is a simple java project, aiming to exercise the concept of project patterns
 
