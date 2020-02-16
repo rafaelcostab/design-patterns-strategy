@@ -1,11 +1,11 @@
-package com.rafaelcostab;
+package com.rafaelcostab.main;
 
 import com.rafaelcostab.service.Freight;
 import com.rafaelcostab.service.TypeFreight;
 
 import java.util.Scanner;
 
-public class Main {
+public class FreightCalculator {
 
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)){
